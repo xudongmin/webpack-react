@@ -1,0 +1,650 @@
+body {
+    background-image: url("./images/bg.png");
+    background-repeat: repeat-x;
+}
+.negotitate-content a:hover {
+    text-decoration: none;
+}
+.searchactive {
+    /*height: 100px;*/
+}
+.Item-detail .addfilespanel {
+    border-radius: 0;
+}
+.indexnegito {
+    margin-top: 5px !important;
+}
+.searchactive-ul {
+    padding-left: 0;
+    font-size: 13px;
+}
+.searchactive-ul li {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+.negotitate-content {
+    width: 98.6%;
+    padding: 5px 15px;
+}
+.particelsearchactive {
+    margin-top: 15px;
+}
+.offer-wrappanel {
+    margin-bottom: 20px;
+}
+.indexnegosearchactive {
+    margin-top: -10px;
+}
+.offer-panel ul {
+    padding-left: 0;
+}
+.offer-panel {
+    font-size: 13px;
+    padding: 15px 15px 5px 15px;
+    border-radius: 4px;
+}
+.offer-panel ul {
+    overflow: hidden;
+    padding: 5px 0 0 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+.offer-panel .exchangerateul {
+    padding: 0 0 0 10px;
+    margin-top: -18px;
+}
+.exchangerateli input[type='text'] {
+    width: 50px;
+    text-align: center;
+}
+.offer-panel li {
+    float: left;
+    width: 290px;
+    height: 35px;
+}
+input {
+    padding: 2px 4px;
+}
+.offer-panel input {
+    width: 100px;
+}
+.offer-panel b {
+    margin-right: 5px;
+    width: 85px;
+    text-align: right;
+    display: inline-block;
+}
+.indexnego {
+    margin-bottom: 0;
+}
+.indexnego h5 {
+    color: #1AB5ED !important;
+}
+.indexnego table td, .indexnego table th {
+    padding: 5px 10px !important;
+}
+.project-detail {
+    margin-top: -20px;
+}
+.project-detail input[type='text'] {
+    height: 24px;
+    margin-left: 5px;
+}
+.offerline {
+    margin-top: 0;
+}
+
+.offerline .editrefresh {
+    color: initial;
+}
+.offerline .panel-heading {
+    padding: 5px;
+}
+.project-detail .tab-pane {
+    background-color: #fff;
+    padding: 20px 0 20px 0;
+}
+.project-detail .project-title {
+    overflow: hidden;
+}
+#respnrul {
+    padding: 15px 15px 10px 15px;
+}
+#respnrul ul {
+    padding: 5px;
+    font-size: 13px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+#respnrul li {
+    padding: 5px 15px;
+}
+.checkedbox {
+    display: inline-block;
+    width: 18px;
+    height: 20px;
+    background: url("./images/icons.png") -1px -100px;
+    position: relative;
+    top: 3px;
+    left: 2px;
+}
+.requirement {
+    padding-bottom: 20px;
+}
+#notes p {
+    padding: 10px 0;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    margin-left: 15px;
+    background-color: #fff;
+    position: relative;
+    top: 12px;
+}
+#notes {
+    margin-top: 20px;
+}
+#offerbase table, #notes table {
+    width: 97%;
+    margin: 0 auto;
+}
+#notes .note-icon {
+    margin-right: 10px;
+    cursor: pointer;
+}
+#notes .negotitate-panelbody {
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+.technical-sta {
+    margin-bottom: 10px;
+}
+.technical-sta, .business-sta {
+    padding: 0 15px;
+}
+.technical-sta span, .business-sta span {
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.technical-sta i, .business-sta i {
+    padding-left: 5px;
+    cursor: pointer;
+}
+#refuseoffer textarea {
+    vertical-align: top;
+    margin-left: 15px;
+    width: 85%;
+}
+#refuseoffer i {
+    margin-right: 5px;
+    vertical-align: middle;
+
+}
+#refuseoffer span {
+    font-size: 13px;
+}
+#Revokeoffer textarea {
+    vertical-align: top;
+    margin-left: 15px;
+    width: 85%;
+}
+#Revokeoffer i {
+    margin-right: 5px;
+    vertical-align: middle;
+
+}
+#Revokeoffer span {
+    font-size: 13px;
+}
+.offerpanelul {
+    padding-bottom: 0 !important;
+}
+.Item-detail .participatepanel {
+    padding: 5px 15px;
+}
+.Item-detail .addfilesbutton {
+    padding: 2px 8px;
+    margin-left: 5px;
+    margin-right: 3px;
+}
+.participatepanel h5 {
+    display: inline-block;
+}
+.participatepanel a {
+    margin: 0 5px;
+}
+.participatepanel i {
+    cursor: pointer;
+}
+.demand {
+    padding-bottom: 15px;
+}
+.demand .panel-body {
+    padding: 10px 0 15px 0;
+}
+#addfile .modal-body {
+    font-size: 13px;
+}
+#addfile input[type='file'] {
+    display: inline-block;
+    border: none;
+}
+#addfile b {
+    margin-right: 10px;
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+}
+#addfile li {
+    margin-bottom: 10px;
+}
+#addfile input[type='radio'] {
+    position: relative;
+    top: 2px;
+}
+#addfile label {
+    margin-right: 5px;
+    font-weight: normal;
+    margin-bottom : 0;
+}
+#addfile textarea {
+    vertical-align: middle;
+    width: 81%;
+}
+.refreshoffer-detail h5 {
+    display: inline-block;
+}
+.refreshoffer-detail i {
+    cursor: pointer;
+}
+.refreshoffer-detail i {
+    margin-left: 5px;
+}
+.bulkupload-panelbody span {
+    margin-right: 10px;
+}
+.bulkupload-panelbody b {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.bulkupload {
+    margin-top: 10px;
+}
+.bulkupload input[type='file'] {
+    display: inline-block;
+    border: none;
+}
+.bulkuploadcontent .panel-heading {
+    padding: 0 15px;
+}
+#Bulkupload .modal-dialog, #refreshoffer .modal-dialog {
+    width: 75%;
+}
+#partconfirm .modal-header {
+    padding: 5px 8px;
+}
+.negotitate-content h5 {
+    cursor: pointer;
+    display: inline-block;
+}
+.negotitate-content .weightspan {
+    font-size: 14px;
+}
+.project-detail .negotitate-panelheading {
+    padding: 5px;
+}
+.createoffer {
+    margin-top: 50px;
+}
+.createoffer .querypanel h5 {
+    color: #FCF7F7 !important;
+}
+.createoffer .querypanel i {
+    color: #FCF7F7;
+}
+.createoffer .querypanel i:hover {
+    color: #3EC535;
+}
+.createoffer .addfilespanel {
+    padding-bottom: 15px;
+}
+.negotitate-content .negotitate-panelbody {
+    padding: 0;
+    background-color: transparent !important;
+}
+.negotitate-panelbody .tab-pane {
+    margin-left: 1px;
+}
+.particel-title {
+    overflow: hidden;
+}
+.Item-detail .panel-body {
+    background-color: #fff;
+}
+.indexitendetail .panel-body {
+    background-color: transparent;
+}
+.Item-detail .offer-detailtable {
+    margin-top: 2px;
+    max-height: 197px;
+    overflow: auto;
+}
+.iconsgroup {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.negotiae-nav h4 {
+    margin-top: 16px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.negotiae-nav a {
+    font-size: 13px;
+}
+.negotiae-nav button {
+    margin-top: 13px;
+    padding: 3px 10px;
+}
+.negotiae-nav .buttons button {
+    margin-top: 6px;
+}
+.negotiae-nav .buttons input, .negotiae-nav .buttons a {
+    margin-top: 5px;
+}
+.negotiae-nav .showdate {
+    display: inline-block;
+    font-size: 13px;
+}
+.query {
+    margin-left: 10px;
+}
+.query i {
+    margin-right: 3px;
+    display: inline-block;
+    width: 36px;
+    height: 31px;
+    background: url("./images/icons.png") 0 -137px;
+    position: relative;
+    top: 5px;
+}
+.stander b {
+    margin-bottom: 5px;
+    display: inline-block;
+    font-size: 13px;
+}
+.uplodfiles {
+    position: relative;
+    left: 8px;
+    top: 16px;
+    padding: 3px 8px;
+}
+.filetables {
+    margin-top: 10px !important;
+    margin-left: 0 !important;
+}
+#refreshoffer .modal-header, #Bulkupload .modal-header, #addfile .modal-header, #refuseoffer .modal-header, #Revokeoffer .modal-header, #partconfirm .modal-header, #confirmrevise .modal-header, #checkstatus .modal-header, #Exceloffer .modal-header, #Responserule .modal-header {
+    padding: 5px 15px;
+}
+#refreshoffer .modal-header .close, #Bulkupload .modal-header .close, #addfile .modal-header .close, #refuseoffer .modal-header .close, #Revokeoffer .modal-header .close, #partconfirm .modal-header .close, #confirmrevise .modal-header .close, #checkstatus .modal-header .close, #Exceloffer .modal-header .close {
+    margin-top: 6px;
+}
+#refreshoffer h5 {
+    cursor: pointer;
+}
+#refreshoffer .panel-heading {
+    padding: 0 15px;
+    height: 35px;
+}
+.refreshtitle {
+    position: relative;
+    top: -10px;
+}
+#refreshoffer .modal-body {
+    padding-bottom: 0;
+}
+.negotitate-nav {
+    margin: -20px auto;
+}
+.indexnegito .indexh5 {
+    position: relative;
+    top: -7px;
+    left: 15px;
+    color: #565679 !important;
+    cursor: default;
+}
+.negotitate-content .panel-body {
+    border-radius: 4px;
+    padding: 0;
+}
+.negotitate-content .panel-body table {
+    background-color: #fff;
+    max-width: none;
+}
+.negotitate-content button {
+    padding: 3px 10px;
+    position: relative;
+    top: 11px;
+}
+.contentsearch {
+    margin-top: 3px;
+}
+.contentsearch select {
+    height: 28px;
+    margin-right: 1px;
+    vertical-align: middle;
+    font-size: 13px;
+}
+.offerpanelulfir {
+    margin-bottom: -22px;
+}
+.createoffer .panel-heading {
+    background-color: #125F8B;
+}
+.offerline .negotitate-panelheading {
+    background-color: transparent;
+}
+.pausetip {
+    font-size: 13px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+}
+.pausetip span {
+    margin-right: 15px;
+}
+.totaloffer {
+    margin-left: 15px;
+    position: relative;
+    top: 18px;
+}
+.negation_title {
+    margin-bottom: 0;
+}
+.negation-index .panel-heading {
+    padding-left: 0;
+    margin-left: -5px;
+}
+.icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url("./images/icons.png");
+    position: relative;
+}
+.monitor {
+    background-position: -1px -33px;
+}
+.iconedit {
+    background-position: -57px -51px;
+}
+.monitor-disable {
+    background-position: -1px -68px;
+}
+.iconclose {
+    background-position: -56px -164px;
+    top: 3px;
+}
+.iconopen {
+    background-position: -57px -130px;
+    top: 2px;
+}
+.iconrefresh {
+    background-position: -56px -96px;
+    top: 4px;
+    left: -10px;
+}
+.iconsettings {
+    background-position: -56px 5px;
+    top: 5px;
+    left: -17px;
+}
+.iconwarning {
+    background-position: 0px -240px;
+    left: 12px;
+    top: 0px;
+}
+.iconinfo {
+    background-position: -57px -249px;
+    left: -3px;
+    top: 7px;
+}
+.iconplus {
+    background-position: 2px -189px;
+    top: 5px;
+}
+.icontrash {
+    background-position: -56px -207px;
+    left: -2px;
+    top: 3px;
+}
+.iconreset {
+    background-position: 0 7px;
+    left: -16px;
+    top: 3px;
+}
+.warningicon {
+    background-position: -1px -267px;
+    left: 5px;
+    top: 3px;
+}
+#confirmrevise .modal-dialog, #offerconfirmrevise .modal-dialog {
+    width: 80%;
+}
+.checkhistory {
+    margin-right: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.checkhisbuttons {
+    float: right;
+    font-size: 13px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.confirmofferul {
+    padding-left: 0;
+}
+.confirmofferul li {
+    float: left;
+    padding: 3px;
+    margin-right: 10px;
+}
+.confirmtable table th, .confirmtable table td{
+    text-align: left;
+}
+.backneg {
+    position: relative;
+    top: 10px;
+}
+.checkstatus, .checktitles {
+    font-size: 13px;
+}
+.checkstatus {
+    margin-left: 20px;
+}
+#checkstatus .modal-footer {
+    padding: 8px;
+}
+.iconpause-success {
+    color: #52EF55;
+}
+.iconpause-danger, .checktip {
+    color: #F00F0B;
+}
+#Responserule ul, .checktip {
+    font-size: 13px;
+}
+#Responserule li {
+    line-height: 1.5;
+}
+.checktip {
+    position: relative;
+    top: -6px;
+    left: 5px;
+}
+.negotitle-search {
+    font-size: 13px;
+}
+.negotitle-search input[type='text'] {
+    background-color: #fff;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    height: 30px;
+    display: inline-block;
+    border-radius: 0;
+}
+.iconsearch {
+    width: 66px;
+    border: none;
+    padding: 4px 0 0 30px;
+    background-position: -54px -330px;
+    height: 28px;
+    background-color: #fff;
+    cursor: pointer;
+    position: static;
+}
+.iconsearch:hover {
+    background-color: #FFF2F2;
+}
+select {
+    padding: 2px;
+}
+.quotationline {
+    width: 100%;
+    overflow: auto;
+}
+.quotationlinetable {
+    width: 1700px;
+}
+.quotationlinetable button {
+    top: 0;
+}
+.modal-dialog {
+    margin: 0 auto;
+    margin-top: 45px;
+}
+#addfile .modal-dialog, #refuseoffer .modal-dialog, #Responserule .modal-dialog {
+    width: 45%;
+}
+.fixedtitle {
+    position: relative;
+    top: 31px;
+}
+.fixedtitle ul {
+    padding:0;
+}
+.fixedtitle li {
+    float:left;
+    border:1px solid #ccc;
+    background-color: #fff;
+    text-align:center;
+    border-right: 0;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px;
+}
+.indexitendetail .negotitate-panelheading {
+    margin-bottom: -25px;
+}

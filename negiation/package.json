@@ -1,0 +1,33 @@
+{
+  "name": "negotiate",
+  "version": "1.0.0",
+  "description": "project for 瘣質���𥁒隞�",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xudongmin",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "gulp": "^3.9.1",
+    "js": "^0.1.0",
+    "jsx": "^0.9.89",
+    "jsx-loader": "^0.13.2",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "path": "^0.12.7",
+    "postcss-loader": "^1.2.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "remarkable": "^1.7.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "*"
+  }
+}

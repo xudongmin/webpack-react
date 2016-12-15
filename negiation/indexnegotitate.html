@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="build/css/bootstrap.min.css">
+    <link rel="stylesheet" href="build/css/font-awesome.min.css">
+    <link rel="stylesheet" href="build/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="build/css/style.css"/>
+    <title>洽谈报价</title>
+    <!--[if lt IE 9]>
+    <script src="build/js/html5shiv.min.js"></script>
+    <script src="build/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="wrap">
+    <div class="header register-nav navbar navbar-default  navbar-fixed-top register-navbar negotiae-nav">
+        <h4 class="">询价: <span class="thisnumcode"></span></h4>
+        <span class="hideswitch">
+            <b class="switchrefuse"><a href="" class="text-primary" data-toggle="modal" data-target="#refuseoffer">拒绝报价</a></b> |
+            <b class="switchrevise"><a href="Participate.html" class="text-primary" target="_blank">参与报价</a></b>
+            <span class="query">
+                <i class=""></i><a href="javascript:void(0);" class="text-primary"><b>在线咨询</b></a>
+            </span>
+        </span>
+        <span class="text-danger showdate"><b>剩余时间: <i>3天1小时</i></b></span>
+        <a class="btn btn-warning btn-sm pull-right backneg" href="Negotiate.html">关闭</a>
+    </div>
+    <div class="register-content negotitate-content indexnego">
+        <div class="searchactive indexnegosearchactive">
+            <div class="panel panel-default negation_title">
+                <div class="panel-body offer-panel">
+                    <ul>
+                        <li><b>项目名称: </b><span>竞价测试1——LJ11061</span></li>
+                        <li><b>状态: </b><span>洽谈进行中</span></li>
+                        <li><b>报价方式: </b><span>公开</span></li>
+                        <li><b>责任人: </b><span>李娟</span></li>
+                        <li><b>开始日期: </b><span>2016-09-13 11:47:56</span></li>
+                        <li><b>结束日期: </b><span>2016-09-14 10:11:09</span></li>
+                        <li id="exchangeratedate" class="exchangerateli"><b>汇率日期: </b><span>2016-11-18 00:00:00</span></li>
+                        <li id="exchangerate" class="exchangerateli"><b>汇率: </b>
+                            1 <select name="" >
+                                <option value="">USD</option>
+                                <option value="">EUR</option>
+                                <option value="">GBP</option>
+                                <option value="">KRW</option>
+                                <option value="">JPY</option>
+                            </select> = <input type="text" value="6.8901" readonly/> RMB
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project-detail offerline">
+                <div class="panel-heading negotitate-panelheading">
+                    <h5 class="togglespan basicinfo"><span class="icon iconclose"></span> 项目基本信息</h5>
+                </div>
+                <div class="panel-body negotitate-panelbody">
+                    <ul id="baseinfo" class="nav nav-tabs">
+                        <li class="active">
+                            <a href="#offerbase" data-toggle="tab">报价基本信息</a>
+                        </li>
+                        <li>
+                            <a href="#respnrul" data-toggle="tab">回应规则</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade in active" id="offerbase">
+                            <table class="table table-bordered table-responsive table-striped">
+                                <tr>
+                                    <td class="text-right"><b>币种</b></td>
+                                    <td class="text-left">USD</td>
+                                    <td class="text-right"><b>价格精确度</b></td>
+                                    <td class="text-left">任意</td>
+                                    <td class="text-right"><b>事业部</b></td>
+                                    <td class="text-left">第十六事业部</td>
+                                    <td class="text-right"><b>是否寄售(含分包)</b></td>
+                                    <td class="text-left">N</td>
+                                    <td class="text-right"><b>采购组织</b></td>
+                                    <td class="text-left">100_深圳采购处</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-right"><b>付款条件</b></td>
+                                    <td class="text-left">02T</td>
+                                    <td class="text-right"><b>工厂</b></td>
+                                    <td class="text-left">座椅工厂</td>
+                                    <td class="text-right"><b>甲方法人主体</b></td>
+                                    <td class="text-left">比亚迪汽车工业有限公司</td>
+                                    <td class="text-right"><b>付款方式</b></td>
+                                    <td class="text-left">RMB</td>
+                                    <td class="text-right"><b>阶梯价格选项</b></td>
+                                    <td class="text-left">以单个订单数量落入的价格区间为计价标准</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-right"><b>收单地址</b></td>
+                                    <td colspan="9" class="text-left">BYD_默认收单地点</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-right"><b>收货地址</b></td>
+                                    <td colspan="9" class="text-left">BYD_默认收单地点</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" id="respnrul">
+                            <ul>
+                                <li>洽谈仅限于被邀请的供应商</li>
+                                <li>允许供应商回应选定行</li>
+                                <li>要求供应商通过每行的全部数量作出回应</li>
+                                <li>允许供应商提供多个回应</li>
+                                <li>买方可以创建多轮洽谈</li>
+                                <li>允许撤销报价</li>
+                                <li>买方可以在结束日期之前结束洽谈</li>
+                                <li>洽谈开始后,买方可人工延长洽谈</li>
+                                <li>允许分批决标</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Item-detail offerline indexitendetail">
+                <div class="panel-heading negotitate-panelheading">
+                    <h5 class="togglespan leftspan"><span class="icon iconclose"></span> <i class="hidetitle">项目明细</i></h5>
+                </div>
+                <div class="panel-body">
+                    <div class="fixedtitle clearfix">
+                    </div>
+                    <div class="offer-panel negotitate-panelbody offer-detailtable">
+                        <table class="table table-bordered table-responsive table-striped">
+                        <thead>
+                        <tr>
+                            <th>行号</th>
+                            <th>物料号</th>
+                            <th>物料描述</th>
+                            <th>物料类别</th>
+                            <th>单位</th>
+                            <th>数量</th>
+                            <th>需要起始的日期</th>
+                            <th>需要终止的日期</th>
+                            <th>最优价格</th>
+                            <th>附件</th>
+                            <th>通知供应商</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>10936563-00</td>
+                            <td>连接器配件_插芯_HE-024-F-重载型</td>
+                            <td>电气类.电工电器.电器配件.连接器配件</td>
+                            <td>个</td>
+                            <td>20000</td>
+                            <td>2016-09-29 15:15:10</td>
+                            <td>2016-09-29 15:15:10</td>
+                            <td>密封</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>10936563-00</td>
+                            <td>连接器配件_插芯_HE-024-F-重载型</td>
+                            <td>电气类.电工电器.电器配件.连接器配件</td>
+                            <td>个</td>
+                            <td>20000</td>
+                            <td>2016-09-29 15:15:10</td>
+                            <td>2016-09-29 15:15:10</td>
+                            <td>密封</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>10936563-00</td>
+                            <td>连接器配件_插芯_HE-024-F-重载型</td>
+                            <td>电气类.电工电器.电器配件.连接器配件</td>
+                            <td>个</td>
+                            <td>20000</td>
+                            <td>2016-09-29 15:15:10</td>
+                            <td>2016-09-29 15:15:10</td>
+                            <td>密封</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>10936563-00</td>
+                            <td>连接器配件_插芯_HE-024-F-重载型</td>
+                            <td>电气类.电工电器.电器配件.连接器配件</td>
+                            <td>个</td>
+                            <td>20000</td>
+                            <td>2016-09-29 15:15:10</td>
+                            <td>2016-09-29 15:15:10</td>
+                            <td>密封</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>10936563-00</td>
+                            <td>连接器配件_插芯_HE-024-F-重载型</td>
+                            <td>电气类.电工电器.电器配件.连接器配件</td>
+                            <td>个</td>
+                            <td>20000</td>
+                            <td>2016-09-29 15:15:10</td>
+                            <td>2016-09-29 15:15:10</td>
+                            <td>密封</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>10936563-00</td>
+                            <td>连接器配件_插芯_HE-024-F-重载型</td>
+                            <td>电气类.电工电器.电器配件.连接器配件</td>
+                            <td>个</td>
+                            <td>20000</td>
+                            <td>2016-09-29 15:15:10</td>
+                            <td>2016-09-29 15:15:10</td>
+                            <td>密封</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>10936563-00</td>
+                            <td>连接器配件_插芯_HE-024-F-重载型</td>
+                            <td>电气类.电工电器.电器配件.连接器配件</td>
+                            <td>个</td>
+                            <td>20000</td>
+                            <td>2016-09-29 15:15:10</td>
+                            <td>2016-09-29 15:15:10</td>
+                            <td>密封</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                </div>
+            </div>
+            <div id="notes" class="offerline">
+                <div class="panel-heading negotitate-panelheading">
+                    <h5 class="togglespan leftspan"><span class="icon iconclose"></span> <i class="hidetitle">附注和附件</i></h5>
+                </div>
+                <div class="panel-body offer-panel negotitate-panelbody filesdetailable">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="offer-panel-p">通知供应商: 见到报价单后,若无疑问,请速报价,用户急需使用,谢谢!</p>
+                        </div>
+                        <div class="col-md-6">
+                            <table class="table table-bordered table-responsive table-striped filetables">
+                                <thead>
+                                <tr>
+                                    <th>标题</th>
+                                    <th>最后上传时间</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><a href="javascript:void(0);" class="text-primary">聚</a></td>
+                                    <td>2016-09-22 15:09:31</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="javascript:void(0);" class="text-primary">未定义</a></td>
+                                    <td>2016-09-22 15:09:31</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="demand offerline requirement">
+                <div class="panel-heading negotitate-panelheading">
+                    <h5 class="togglespan"><span class="icon iconclose"></span> 指标项</h5>
+                </div>
+                <div class="panel-body">
+                    <div class="query-detail">
+                        <div class="technical-sta stander">
+                            <b class="text-primary">技术标</b>
+                            <table class="table table-responsive table-bordered table-striped hidetable">
+                                <thead>
+                                <tr>
+                                    <th>需求</th>
+                                    <th>标底</th>
+                                    <th>类型</th>
+                                    <th>值类型</th>
+                                    <th>值</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>技术参数</td>
+                                    <td></td>
+                                    <td>供应商必输项</td>
+                                    <td>文本</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>工艺水平</td>
+                                    <td>90以上</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="business-sta stander">
+                            <b class="text-primary">商务标</b>
+                            <table class="table table-responsive table-bordered table-striped hidetable">
+                                <thead>
+                                <tr>
+                                    <th>需求</th>
+                                    <th>标底</th>
+                                    <th>类型</th>
+                                    <th>值类型</th>
+                                    <th>值</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>技术参数</td>
+                                    <td></td>
+                                    <td>供应商必输项</td>
+                                    <td>文本</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>工艺水平</td>
+                                    <td>90以上</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--拒绝报价模态框-->
+    <form action="">
+        <div id="refuseoffer" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <a class="close" data-dismiss="modal">x</a>
+                        <h5>拒绝参与 (报价 <span>30052071</span>)</h5>
+                    </div>
+                    <div class="modal-body">
+                        <span><i class="text-danger">*</i>拒绝原因</span><textarea name="" id="" cols="30"
+                                                                               rows="10"></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="submit" value="应用" class="btn btn-success btn-sm refusesuccess"/>
+                        <a href="#" class="btn btn-default btn-sm" data-dismiss="modal">取消</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!--撤销报价模态框-->
+    <form action="">
+        <div id="Revokeoffer" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <a class="close" data-dismiss="modal">x</a>
+                        <h5>撤销报价 (报价 <span>30052071</span>)</h5>
+                    </div>
+                    <div class="modal-body">
+                        <div style="margin-bottom: 10px;">
+                            <i class="iconwarning icon"></i>警告:
+                            <span class="text-danger">此操作将从洽谈流程中永久撤销该报价并会存档.存档的报价将不符合评估或决标资格</span>
+                        </div>
+                        <span><i class="text-danger">*</i>撤销原因</span><textarea name="" id="" cols="30"
+                                                                               rows="10"></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="button" value="应用" class="btn btn-success btn-sm revokeofferbtn" data-toggle="modal"
+                               data-target="#recoveconfirm"/>
+                        <a href="#" class="btn btn-default btn-sm" data-dismiss="modal">取消</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!--撤销确认-->
+    <div id="recoveconfirm" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal">x</a>
+                    <h5 class="text-primary">撤销确认</h5>
+                </div>
+                <div class="modal-body">
+                    已成功撤销报价400456322555
+                </div>
+                <div class="modal-footer setlocalcodes">
+                    <a href="Participate.html" class="btn btn-success btn-sm" data-code="contuine">继续参与报价</a>
+                    <a href="Negotiate.html" class="btn btn-default btn-sm" data-code="contuine">返回上一页</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--拟定修正确认-->
+    <div id="confirmrevise" class="modal fade confirmtable" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal">x</a>
+                    <h5 class="text-primary">查看更改并确认修正</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="confirmrevisetitle">
+                        <h6>题头:</h6>
+                        <table class="table table-bordered table-responsive table-striped">
+                            <thead>
+                                <tr>
+                                    <th>标签</th>
+                                    <th>询价 30052000.1</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>开始日期</td>
+                                    <td>2016-09-13 11:47:56</td>
+                                </tr>
+                                <tr>
+                                    <td>结束日期</td>
+                                    <td>2016-09-14 10:11:09</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="confirmrevisebase">
+                        <h6>项目基本信息:</h6>
+                        <table class="table table-bordered table-responsive table-striped">
+                            <thead>
+                            <tr>
+                                <th>标签</th>
+                                <th>询价 30052000.1</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>报价基本信息</td>
+                                <td><b>更新采购组织 ></b> 100_深圳采购处</td>
+                            </tr>
+                            <tr>
+                                <td>回应规则</td>
+                                <td><b>添加 ></b>  已选中只读复选框 要求供应商通过每行的全部数量作出回应</td>
+                            </tr>
+                            <tr>
+                                <td>权重和计分</td>
+                                <td>
+                                    <b>技术标 ></b>
+                                    <table class="table table-bordered table-responsive table-strited">
+                                        <thead>
+                                            <th>更改类型</th>
+                                            <th>需求</th>
+                                            <th>标底</th>
+                                            <th>类型</th>
+                                            <th>值类型</th>
+                                            <th>值</th>
+                                        </thead>
+                                        <tbody>
+                                            <td>添加</td>
+                                            <td>工艺水平</td>
+                                            <td>90以上</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="confirmreviseline">
+                        <h6>项目明细:</h6>
+                        <table class="table table-responsive table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>更改类型</th>
+                                    <th>物料号</th>
+                                    <th>物料描述</th>
+                                    <th>物料类别</th>
+                                    <th>单位</th>
+                                    <th>数量</th>
+                                    <th>需要起始的日期</th>
+                                    <th>需要终止的日期</th>
+                                    <th>最优价格</th>
+                                    <th>通知供应商</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>更新</td>
+                                    <td>10936563-00</td>
+                                    <td>连接器配件_插芯_HE-024-F-重载型</td>
+                                    <td>电气类.电工电器.电器配件.连接器配件</td>
+                                    <td>个</td>
+                                    <td>20000</td>
+                                    <td>2016-09-29 15:15:10</td>
+                                    <td>2016-09-29 15:15:10</td>
+                                    <td>密封</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>添加</td>
+                                    <td>10936563-00</td>
+                                    <td>连接器配件_插芯_HE-024-F-重载型</td>
+                                    <td>电气类.电工电器.电器配件.连接器配件</td>
+                                    <td>个</td>
+                                    <td>20000</td>
+                                    <td>2016-09-29 15:15:10</td>
+                                    <td>2016-09-29 15:15:10</td>
+                                    <td>密封</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>删除</td>
+                                    <td>1093656258</td>
+                                    <td>连接器配件_插芯</td>
+                                    <td>电气类.电工电器</td>
+                                    <td>台</td>
+                                    <td>200</td>
+                                    <td>2016-09-29 15:15:10</td>
+                                    <td>2016-09-29 15:15:10</td>
+                                    <td>密封</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="confirmrevisefiles">
+                        <h6>附注和附件:</h6>
+                        <table class="table table-bordered table-responsive table-striped">
+                            <thead>
+                                <tr>
+                                    <th>标签</th>
+                                    <th>询价 30052000.1</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>附注更改</td>
+                                    <td>通知供应商: 见到报价单后,若无疑问,请速报价,用户急需使用,谢谢!</td>
+                                </tr>
+                                <tr>
+                                    <td>附件</td>
+                                    <td>
+                                        <table class="table table-responsive table-bordered table-striped">
+                                            <tr>
+                                                <th>更改类型</th>
+                                                <th>标题</th>
+                                                <th>最后上传时间</th>
+                                            </tr>
+                                            <tr>
+                                                <td>添加</td>
+                                                <td>聚</td>
+                                                <td>2016-09-22 15:09:31</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="Participate.html" class="btn btn-success btn-sm confirmrevise" data-confirm="confirm">确认修正</a>
+                    <a href="" class="btn btn-default btn-sm ignoerevise" data-dismiss="modal">取消</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--报价提交修正确认-->
+    <div id="offerconfirmrevise" class="modal fade confirmtable" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal">x</a>
+                    <h5 class="text-primary">查看更改并确认修正</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="confirmrevisetitle">
+                        <h6>题头:</h6>
+                        <table class="table table-bordered table-responsive table-striped">
+                            <thead>
+                            <tr>
+                                <th>标签</th>
+                                <th>询价 32015888.1</th>
+                                <th>询价 32015888.2</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>开始日期</td>
+                                <td>2016-09-13 11:47:56</td>
+                                <td>2016-09-13 11:47:56</td>
+                            </tr>
+                            <tr>
+                                <td>结束日期</td>
+                                <td>2016-09-14 10:11:09</td>
+                                <td>2016-09-14 10:11:09</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="confirmrevisebase">
+                        <h6>项目基本信息:</h6>
+                        <table class="table table-bordered table-responsive table-striped">
+                            <thead>
+                            <tr>
+                                <th>标签</th>
+                                <th>询价 32015888.1</th>
+                                <th>询价 32015888.2</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>报价基本信息</td>
+                                <td><b>更新采购组织 ></b> 100_深圳采购处</td>
+                                <td><b>更新采购组织 ></b> 100_深圳采购处</td>
+                            </tr>
+                            <tr>
+                                <td>回应规则</td>
+                                <td><b>添加 ></b>  已选中只读复选框 要求供应商通过每行的全部数量作出回应</td>
+                                <td><b>添加 ></b>  已选中只读复选框 要求供应商通过每行的全部数量作出回应</td>
+                            </tr>
+                            <tr>
+                                <td>权重和计分</td>
+                                <td>
+                                    <b>技术标 ></b>
+                                    <table class="table table-bordered table-responsive table-strited">
+                                        <thead>
+                                        <th>更改类型</th>
+                                        <th>需求</th>
+                                        <th>标底</th>
+                                        <th>类型</th>
+                                        <th>值类型</th>
+                                        <th>值</th>
+                                        </thead>
+                                        <tbody>
+                                        <td>添加</td>
+                                        <td>工艺水平</td>
+                                        <td>90以上</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td>
+                                    <b>技术标 ></b>
+                                    <table class="table table-bordered table-responsive table-strited">
+                                        <thead>
+                                        <th>更改类型</th>
+                                        <th>需求</th>
+                                        <th>标底</th>
+                                        <th>类型</th>
+                                        <th>值类型</th>
+                                        <th>值</th>
+                                        </thead>
+                                        <tbody>
+                                        <td>添加</td>
+                                        <td>工艺水平</td>
+                                        <td>90以上</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="confirmreviseline">
+                        <h6>项目明细:</h6>
+                        <table class="table table-responsive table-bordered table-striped">
+                            <thead>
+                            <tr>
+                                <th>更改类型</th>
+                                <th>物料号</th>
+                                <th>物料描述</th>
+                                <th>物料类别</th>
+                                <th>单位</th>
+                                <th>数量</th>
+                                <th>需要起始的日期</th>
+                                <th>需要终止的日期</th>
+                                <th>最优价格</th>
+                                <th>通知供应商</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>更新</td>
+                                <td>10936563-00</td>
+                                <td>连接器配件_插芯_HE-024-F-重载型</td>
+                                <td>电气类.电工电器.电器配件.连接器配件</td>
+                                <td>个</td>
+                                <td>20000</td>
+                                <td>2016-09-29 15:15:10</td>
+                                <td>2016-09-29 15:15:10</td>
+                                <td>密封</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>添加</td>
+                                <td>10936563-00</td>
+                                <td>连接器配件_插芯_HE-024-F-重载型</td>
+                                <td>电气类.电工电器.电器配件.连接器配件</td>
+                                <td>个</td>
+                                <td>20000</td>
+                                <td>2016-09-29 15:15:10</td>
+                                <td>2016-09-29 15:15:10</td>
+                                <td>密封</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>删除</td>
+                                <td>1093656258</td>
+                                <td>连接器配件_插芯</td>
+                                <td>电气类.电工电器</td>
+                                <td>台</td>
+                                <td>200</td>
+                                <td>2016-09-29 15:15:10</td>
+                                <td>2016-09-29 15:15:10</td>
+                                <td>密封</td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="confirmrevisefiles">
+                        <h6>附注和附件:</h6>
+                        <table class="table table-bordered table-responsive table-striped">
+                            <thead>
+                            <tr>
+                                <th>标签</th>
+                                <th>询价 32015888.1</th>
+                                <th>询价 32015888.2</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>附注更改</td>
+                                <td>通知供应商: 见到报价单后,若无疑问,请速报价,用户急需使用,谢谢!</td>
+                                <td>通知供应商: 见到报价单后,若无疑问,请速报价,用户急需使用,谢谢!</td>
+                            </tr>
+                            <tr>
+                                <td>附件</td>
+                                <td>
+                                    <table class="table table-responsive table-bordered table-striped">
+                                        <tr>
+                                            <th>更改类型</th>
+                                            <th>标题</th>
+                                            <th>最后上传时间</th>
+                                        </tr>
+                                        <tr>
+                                            <td>添加</td>
+                                            <td>聚</td>
+                                            <td>2016-09-22 15:09:31</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-responsive table-bordered table-striped">
+                                        <tr>
+                                            <th>更改类型</th>
+                                            <th>标题</th>
+                                            <th>最后上传时间</th>
+                                        </tr>
+                                        <tr>
+                                            <td>添加</td>
+                                            <td>聚</td>
+                                            <td>2016-09-22 15:09:31</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="Participate.html" class="btn btn-success btn-sm offerconfirmig" data-confirm="offerconfirmig">确认修正</a>
+                    <a href="" class="btn btn-default btn-sm ignoerevise" data-dismiss="modal">取消</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--导出报价-->
+    <div id="Exceloffer" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal">x</a>
+                    <h5 class="text-primary">导出查看报价</h5>
+                </div>
+                <div class="modal-body">
+                    <button class="btn btn-success btn-sm excledown">下载报价</button>
+                    <button class="btn btn-warning btn-sm exclecheck">查看报价</button>
+                </div>
+                <div class="modal-footer">
+                    <a href="" class="btn btn-default btn-sm" data-dismiss="modal">取消</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--回应规则确认-->
+    <button type="button" class="confirmresponsebtn" style="visibility: hidden;" data-toggle="modal" data-target="#Responserule"></button>
+    <div id="Responserule" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="text-primary">回应规则确认</h5>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>洽谈仅限于被邀请的供应商</li>
+                        <li>允许供应商回应选定行</li>
+                        <li>要求供应商通过每行的全部数量作出回应</li>
+                        <li>允许供应商提供多个回应</li>
+                        <li>买方可以创建多轮洽谈</li>
+                        <li>允许撤销报价</li>
+                        <li>买方可以在结束日期之前结束洽谈</li>
+                        <li>洽谈开始后,买方可人工延长洽谈</li>
+                        <li>允许分批决标</li>
+                    </ul>
+                </div>
+                <div class="modal-footer setlocalcodes">
+                    <a href="" class="btn btn-success btn-sm" data-dismiss="modal">我知道了</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-datetimepicker.min.js"></script>
+    <script src="js/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script src="js/main.js"></script>
+    <script src="build/js/indexnegotitate.js"></script>
+</body>
+</html>
